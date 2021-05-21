@@ -36,9 +36,9 @@ public class Search extends AppCompatActivity {
         lv = (ListView) findViewById(R.id.list);
         sv = (SearchView) findViewById(R.id.search_bar);
         list1 = new ArrayList<String>();
-        list1.add("전자정보대학");    //university 1
-        list1.add("자연과학대학");    //university 2
-        list1.add("공과대학");       //university 3
+        list1.add("전자정보대학");    //university 0
+        list1.add("자연과학대학");    //university 1
+        list1.add("공과대학");       //university 2
         adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, list1);
         lv.setAdapter(adapter);
         sv.setOnQueryTextListener(new SearchView.OnQueryTextListener() {

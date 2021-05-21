@@ -3,12 +3,18 @@
     package="com.example.firstcbnu">
 
     <application
+
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="CBNU GUIDE"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstCBNU">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA2OhGaMnOdEW-mgbbLLKrqekUiHLZz6Cg"/>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,14 +22,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Location" />
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
         <activity android:name=".AR" />
         <activity android:name=".Search" />
-        <activity android:name=".BuildingClicked"/>
-
-
-
-
+        <activity android:name=".Map" />
+        <activity android:name=".BuildingClicked" />
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION "/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION "/>
+
+    <queries> <package android:name="com.google.android.googlequicksearchbox"/> </queries>
 </manifest>
