@@ -114,11 +114,9 @@ public class Map extends AppCompatActivity
         Log.d(TAG, "onMapReady :");
 
         mMap = googleMap;
-
         //런타임 퍼미션 요청 대화상자나 GPS 활성 요청 대화상자 보이기전에
         //지도의 초기위치를 서울로 이동
         setDefaultLocation();
-
 
 
         //런타임 퍼미션 처리
@@ -168,7 +166,7 @@ public class Map extends AppCompatActivity
 
         }
 
-
+        mMap.addMarker(new MarkerOptions().position(new LatLng(37.4078498,-122.1511445)).title("Marker"));
 
         mMap.getUiSettings().setMyLocationButtonEnabled(true);
         // 현재 오동작을 해서 주석처리
