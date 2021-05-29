@@ -101,6 +101,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/firstCBNU" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager">
@@ -133,5 +134,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="705" y="337" key="FileChooserDialogImpl" timestamp="1622251243944">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="705" y="337" key="FileChooserDialogImpl/0.0.1920.1080/-1920.3.1920.1080@0.0.1920.1080" timestamp="1622251243944" />
   </component>
 </project>
