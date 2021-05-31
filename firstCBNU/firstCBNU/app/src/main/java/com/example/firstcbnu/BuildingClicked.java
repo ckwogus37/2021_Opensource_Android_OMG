@@ -149,7 +149,8 @@ public class BuildingClicked extends Activity{  //검색 후 **대학 클릭시 
             case "기타 교내건물(N)" :
                 building_name.setText("기타 교내건물(N)");
                 buildingimg.setImageResource(R.drawable.universityheadimg);
-                btn2.setText("N10 대학본부,국제교류본부");
+                btn1.setText("N2 법학전문대학원");
+                btn2.setText("N10 대학본부");
                 btn3.setText("N11 공동실험실습관");
                 btn4.setText("N12 중앙도서관");
                 break;

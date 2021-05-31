@@ -123,9 +123,72 @@ public class Map extends AppCompatActivity
         //런타임 퍼미션 요청 대화상자나 GPS 활성 요청 대화상자 보이기전에
         //지도의 초기위치를 서울로 이동
         setDefaultLocation();
-
-
-        //런타임 퍼미션 처리
+        LatLng S4_1=new LatLng(36.62557,127.45440);
+        mMap.addMarker(new MarkerOptions().position(S4_1).title("전자정보3관(S4-1)"));
+        LatLng E8=new LatLng(36.62546,127.45795);
+        mMap.addMarker(new MarkerOptions().position(E8).title("전자정보1관(E8-7)"));
+        LatLng E9=new LatLng(36.62508,127.45719);
+        mMap.addMarker(new MarkerOptions().position(E9).title("학연산공동기술연구원(E9)"));
+        LatLng E10=new LatLng(36.62489,127.45784);
+        mMap.addMarker(new MarkerOptions().position(E10).title("전자정보2관(E10)"));
+        LatLng S1=new LatLng(36.62775,127.45673);
+        mMap.addMarker(new MarkerOptions().position(S1).title("자연대1호관(S1-1)"));
+        LatLng S1_3=new LatLng(36.62668,127.45679);
+        mMap.addMarker(new MarkerOptions().position(S1_3).title("자연대3호관(S1-3)"));
+        LatLng S1_6=new LatLng(36.62504,127.45590);
+        mMap.addMarker(new MarkerOptions().position(S1_6).title("자연대6호관(S1-6)"));
+        LatLng E8_1=new LatLng(36.62659,127.45813);
+        mMap.addMarker(new MarkerOptions().position(E8_1).title("공과대학본관(E8-1)"));
+        LatLng E8_10=new LatLng(36.62409,127.45804);
+        mMap.addMarker(new MarkerOptions().position(E8_10).title("제5공학관(E8-10)"));
+        LatLng N14=new LatLng(36.63093,127.45646);
+        mMap.addMarker(new MarkerOptions().position(N14).title("인문사회관(N14)"));
+        LatLng N15=new LatLng(36.62937,127.45783);
+        mMap.addMarker(new MarkerOptions().position(N15).title("사회과학대학(N15)"));
+        LatLng N13=new LatLng(36.63005,127.45692);
+        mMap.addMarker(new MarkerOptions().position(N13).title("경영대학(N13)"));
+        LatLng S21_4=new LatLng(36.62974,127.45281);
+        mMap.addMarker(new MarkerOptions().position(S21_4).title("농업생명환경대학(S21-4)"));
+        LatLng E1_2=new LatLng(36.62875,127.46060);
+        mMap.addMarker(new MarkerOptions().position(E1_2).title("사범대학강의동(E1-2)"));
+        LatLng N20_1=new LatLng(36.63040,127.46088);
+        mMap.addMarker(new MarkerOptions().position(N20_1).title("생활과학대학(N20-1)"));
+        LatLng E12_1=new LatLng(36.62329,127.45604);
+        mMap.addMarker(new MarkerOptions().position(E12_1).title("수의과대학(E12-1)"));
+        LatLng E7_1=new LatLng(36.62483,127.46081);
+        mMap.addMarker(new MarkerOptions().position(E7_1).title("의과대학1호관(E7-1)"));
+        LatLng S4_2=new LatLng(36.62520,127.45483);
+        mMap.addMarker(new MarkerOptions().position(S4_2).title("나이팅게일관(S4-2)"));
+        LatLng N16_2=new LatLng(36.63078,127.45727);
+        mMap.addMarker(new MarkerOptions().position(N16_2).title("미술관(N16-2)"));
+        LatLng S17_1=new LatLng(36.62743,127.45238);
+        mMap.addMarker(new MarkerOptions().position(S17_1).title("양성재(S17-1)"));
+        LatLng E8_11=new LatLng(36.62395,127.45938);
+        mMap.addMarker(new MarkerOptions().position(E8_11).title("양진재(E8-11)"));
+        LatLng N17_3=new LatLng(36.63145,127.45803);
+        mMap.addMarker(new MarkerOptions().position(N17_3).title("개성재(N17-3)"));
+        LatLng S1_7=new LatLng(36.62692,127.45705);
+        mMap.addMarker(new MarkerOptions().position(S1_7).title("과학기술도서관(S1-7)"));
+        LatLng S2=new LatLng(36.62638,127.45547);
+        mMap.addMarker(new MarkerOptions().position(S2).title("전산정보원(S2)"));
+        LatLng S8=new LatLng(36.62711,127.45398);
+        mMap.addMarker(new MarkerOptions().position(S8).title("야외공연장(S8)"));
+        LatLng S9=new LatLng(36.62766,127.45532);
+        mMap.addMarker(new MarkerOptions().position(S9).title("박물관(S9)"));
+        LatLng N10=new LatLng(36.63014,127.45475);
+        mMap.addMarker(new MarkerOptions().position(N10).title("대학본부,국제교루본부(N10)"));
+        LatLng N11=new LatLng(36.62930,127.45526);
+        mMap.addMarker(new MarkerOptions().position(N11).title("공동실험실습관(N11)"));
+        LatLng N12=new LatLng(36.62845,127.45741);
+        mMap.addMarker(new MarkerOptions().position(N12).title("중앙도서관(N12)"));
+        LatLng E2=new LatLng(36.62817,127.45946);
+        mMap.addMarker(new MarkerOptions().position(E2).title("개신문화관(E2)"));
+        LatLng E3=new LatLng(36.62754,127.45881);
+        mMap.addMarker(new MarkerOptions().position(E3).title("제1학생회관(E3)"));
+        LatLng N2=new LatLng(36.63193,127.45400);
+        mMap.addMarker(new MarkerOptions().position(N2).title("법학전문대학원(N2)"));
+        LatLng S14=new LatLng(36.62796,127.45430);
+        mMap.addMarker(new MarkerOptions().position(S14).title("제2학생회관(S14)"));
         // 1. 위치 퍼미션을 가지고 있는지 체크합니다.
         int hasFineLocationPermission = ContextCompat.checkSelfPermission(this,
                 Manifest.permission.ACCESS_FINE_LOCATION);
