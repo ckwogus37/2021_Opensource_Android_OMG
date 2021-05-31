@@ -69,7 +69,12 @@ public class Search extends AppCompatActivity {
         showlist.add("사범대학");
         showlist.add("생활과학대학");
         showlist.add("수의과대학");
-        showlist.add("의과대학");   //showlist의 9번 인덱스
+        showlist.add("의과대학");
+        showlist.add("융합학과군");
+        showlist.add("기숙사");
+        showlist.add("기타 교내건물(S)");
+        showlist.add("기타 교내건물(N)");
+        showlist.add("기타 교내건물(E)"); //showlist의 15번 인덱스
 
         adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, showlist);    //showlist의 아이템들을 apdater라는 필터를 거치게한다.
         lv.setAdapter(adapter); //adpater라는 필터를 거친 후의 결과값들을 listview에 보여준다.

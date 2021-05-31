@@ -5,39 +5,91 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/buildingimg2"
-        android:layout_width="400dp"
-        android:layout_height="334dp"
-        android:layout_marginBottom="232dp"
-        android:background="@color/gray"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="0dp">
 
-    <ImageView
-        android:id="@+id/buildingimg"
-        android:layout_width="400dp"
-        android:layout_height="334dp"
-        android:layout_marginBottom="232dp"
-        android:background="@color/gray"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent" />
+        <ImageView
+            android:id="@+id/buildingimg2"
+            android:layout_width="400dp"
+            android:layout_height="334dp"
+            android:layout_marginBottom="232dp"
+            android:background="@color/gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/building_name"
-        android:layout_width="366dp"
-        android:layout_height="85dp"
-        android:layout_marginBottom="36dp"
-        android:gravity="center_horizontal"
-        android:text="text"
-        android:textSize="50sp"
-        app:layout_constraintBottom_toTopOf="@+id/buildingimg"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
-        app:layout_constraintStart_toStartOf="parent" />
+        <ImageView
+            android:id="@+id/buildingimg"
+            android:layout_width="400dp"
+            android:layout_height="334dp"
+            android:layout_marginBottom="232dp"
+            android:background="@color/gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/building_name"
+            android:layout_width="366dp"
+            android:layout_height="85dp"
+            android:layout_marginBottom="36dp"
+            android:gravity="center_horizontal"
+            android:text="text"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toTopOf="@+id/buildingimg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="177dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="20dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buildingimg2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="177dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="84dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buildingimg2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="177dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="20dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.901"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buildingimg2" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="177dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="84dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.901"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buildingimg2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+   </androidx.constraintlayout.widget.ConstraintLayout>

@@ -51,6 +51,8 @@ public class Map extends AppCompatActivity
     private GoogleMap mMap;
     private Marker currentMarker = null;
 
+    private String getbuildingname;     //BuildingClicked.java로 부터 넘어온 부속건물(specifibuilding)의 이름값(String)을 담을 변수
+
     private static final String TAG = "googlemap_example";
     private static final int GPS_ENABLE_REQUEST_CODE = 2001;
     private static final int UPDATE_INTERVAL_MS = 1000;  // 1초
@@ -81,6 +83,10 @@ public class Map extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Intent clickedintent2 = getIntent(); //BuildingClicked.java에서 넘어오는 정보들을 받기위해 "getIntent()"함수의 변수를 선언
+        getbuildingname = clickedintent2.getStringExtra("건물이름");   //clickedintent2이라는 getIntent변수에 BuildingClicked.java로 부터 넘어온 선택된 아이템의 string값을 저장한다.
+
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON,
                 WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
