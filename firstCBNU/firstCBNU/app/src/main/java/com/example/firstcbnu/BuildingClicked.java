@@ -179,7 +179,10 @@ public class BuildingClicked extends Activity{  //검색 후 **대학 클릭시 
                 Intent intent = new Intent(getApplicationContext(),Map.class);
                 specifibuilding = (String)btn2.getText();
                 intent.putExtra("건물이름",specifibuilding);  //Search.java에서 BuildingClicked.java로 넘어갈 때, 선택된 아이템의 string값을 넘겨준다.
+                if(specifibuilding!="-")
                 startActivity(intent);
+                else
+                    Toast.makeText(getApplicationContext(),"건물이 없습니다",Toast.LENGTH_SHORT).show();
             }
         });
         btn3.setOnClickListener(new View.OnClickListener() {
@@ -188,7 +191,10 @@ public class BuildingClicked extends Activity{  //검색 후 **대학 클릭시 
                 Intent intent = new Intent(getApplicationContext(),Map.class);
                 specifibuilding = (String)btn3.getText();
                 intent.putExtra("건물이름",specifibuilding);  //Search.java에서 BuildingClicked.java로 넘어갈 때, 선택된 아이템의 string값을 넘겨준다.
-                startActivity(intent);
+                if(specifibuilding!="-")
+                    startActivity(intent);
+                else
+                    Toast.makeText(getApplicationContext(),"건물이 없습니다",Toast.LENGTH_SHORT).show();
             }
         });
         btn4.setOnClickListener(new View.OnClickListener() {
@@ -197,7 +203,10 @@ public class BuildingClicked extends Activity{  //검색 후 **대학 클릭시 
                 Intent intent = new Intent(getApplicationContext(),Map.class);
                 specifibuilding = (String)btn4.getText();
                 intent.putExtra("건물이름",specifibuilding);  //Search.java에서 BuildingClicked.java로 넘어갈 때, 선택된 아이템의 string값을 넘겨준다.
-                startActivity(intent);
+                if(specifibuilding!="-")
+                    startActivity(intent);
+                else
+                    Toast.makeText(getApplicationContext(),"건물이 없습니다",Toast.LENGTH_SHORT).show();
             }
         });
     }
