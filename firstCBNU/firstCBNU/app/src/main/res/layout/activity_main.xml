@@ -4,92 +4,92 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#b8e2e1"
     tools:context=".MainActivity">
 
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="152dp"
-        android:layout_height="140dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="168dp"
-        android:layout_marginBottom="45dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
-        app:layout_constraintEnd_toStartOf="@+id/arbtn"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="456dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/camera" />
+        app:srcCompat="@drawable/searchbtn" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="152dp"
-        android:layout_height="140dp"
-        android:layout_marginStart="54dp"
-        android:layout_marginLeft="54dp"
-        android:layout_marginBottom="308dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/searchbtn"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="312dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/magnifier" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arbtn" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="152dp"
-        android:layout_height="140dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginLeft="52dp"
-        android:layout_marginBottom="94dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="596dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchbtn"
-        app:srcCompat="@drawable/location" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mapbtn" />
 
     <Button
         android:id="@+id/arbtn"
-        android:layout_width="146dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="216dp"
-        android:layout_marginEnd="45dp"
-        android:layout_marginRight="45dp"
-        android:layout_marginBottom="171dp"
+        android:layout_width="190dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="484dp"
         android:background="@drawable/style"
         android:text="AR버튼"
         app:backgroundTint="#FFC107"
-        app:layout_constraintBottom_toTopOf="@+id/searchbtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/searchbtn"
-        android:layout_width="147dp"
-        android:layout_height="56dp"
-        android:layout_marginEnd="45dp"
-        android:layout_marginRight="45dp"
-        android:layout_marginBottom="73dp"
+        android:layout_width="190dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="336dp"
         android:background="@drawable/style"
         android:text="건물 검색 버튼"
         app:backgroundTint="#FFC107"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/arbtn"
-        app:layout_constraintVertical_bias="0.88" />
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/mapbtn"
-        android:layout_width="0dp"
-        android:layout_height="56dp"
-        android:layout_marginBottom="19dp"
+        android:layout_width="190dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="616dp"
         android:background="@drawable/style"
         android:text="학교 지도 버튼"
         app:backgroundTint="#FFC107"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="@+id/searchbtn"
-        app:layout_constraintStart_toStartOf="@+id/searchbtn" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="433dp"
+        android:layout_height="308dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.382"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/firstcbnu_logo" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

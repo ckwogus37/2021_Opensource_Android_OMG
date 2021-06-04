@@ -16,7 +16,6 @@ public class AR extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ar);
-
         // 외부의 CBNU_AR 앱을 실행
         ComponentName cn = new ComponentName(packageName,packageName + ".LocationActivity");
         Intent intent = new Intent(Intent.ACTION_MAIN);
