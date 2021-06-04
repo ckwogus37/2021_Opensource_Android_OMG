@@ -82,13 +82,12 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="433dp"
-        android:layout_height="308dp"
+        android:layout_width="581dp"
+        android:layout_height="335dp"
         android:background="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.382"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/firstcbnu_logo" />
 
 
