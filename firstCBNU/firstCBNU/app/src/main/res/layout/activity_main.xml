@@ -17,7 +17,7 @@
         app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/searchbtn" />
+        app:srcCompat="@drawable/arbtn" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -28,7 +28,7 @@
         app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/arbtn" />
+        app:srcCompat="@drawable/searchbtn" />
 
     <ImageView
         android:id="@+id/imageView3"
