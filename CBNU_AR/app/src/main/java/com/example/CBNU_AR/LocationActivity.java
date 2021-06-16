@@ -35,7 +35,7 @@ import uk.co.appoly.arcorelocation.rendering.LocationNodeRender;
 import uk.co.appoly.arcorelocation.utils.ARLocationPermissionHelper;
 
 public class LocationActivity extends AppCompatActivity {
-    private int Maxdistance = 500;
+    private int Maxdistance = 150;
     private int distance = 1000;
     private boolean installRequested;
 
@@ -1280,7 +1280,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("사범대학강의동 E1-2");
                                             TextView distanceTextView = eView.findViewById(R.id.textView22);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.BLUE);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable11.getView();
@@ -1303,7 +1303,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("개신문화관 E2");
                                             TextView distanceTextView = eView.findViewById(R.id.textView24);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.BLUE);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable12.getView();
@@ -1326,7 +1326,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("제1학생회관 E3");
                                             TextView distanceTextView = eView.findViewById(R.id.textView26);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.BLUE);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable13.getView();
@@ -1349,7 +1349,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("의과대학 1호관 E7-1");
                                             TextView distanceTextView = eView.findViewById(R.id.textView28);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.BLUE);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable14.getView();
@@ -1372,7 +1372,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("공과대학 본관 E8-1");
                                             TextView distanceTextView = eView.findViewById(R.id.textView30);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.BLUE);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable15.getView();
@@ -1395,7 +1395,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("전자정보 1관 E8-7");
                                             TextView distanceTextView = eView.findViewById(R.id.textView32);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.BLUE);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable16.getView();
@@ -1418,7 +1418,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("제5공학관 E8-10");
                                             TextView distanceTextView = eView.findViewById(R.id.textView34);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.BLUE);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable17.getView();
@@ -1441,7 +1441,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("양진재 E8-11");
                                             TextView distanceTextView = eView.findViewById(R.id.textView36);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.BLUE);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable18.getView();
@@ -1464,7 +1464,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("학연산 E9");
                                             TextView distanceTextView = eView.findViewById(R.id.textView38);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.BLUE);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable19.getView();
@@ -1487,7 +1487,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("전자정보 2관 E10");
                                             TextView distanceTextView = eView.findViewById(R.id.textView40);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.BLUE);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable20.getView();
@@ -1510,7 +1510,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("수의과대학 및 동물병원 E12-1");
                                             TextView distanceTextView = eView.findViewById(R.id.textView42);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.BLUE);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable21.getView();
@@ -1533,7 +1533,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("자연대 1호관 S1-1");
                                             TextView distanceTextView = eView.findViewById(R.id.textView44);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.GREEN);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable22.getView();
@@ -1556,7 +1556,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("자연대 3호관 S1-3");
                                             TextView distanceTextView = eView.findViewById(R.id.textView46);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.GREEN);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable23.getView();
@@ -1579,7 +1579,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("자연대 6호관 S1-6");
                                             TextView distanceTextView = eView.findViewById(R.id.textView48);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.GREEN);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable24.getView();
@@ -1602,7 +1602,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("과학기술도서관 S1-7");
                                             TextView distanceTextView = eView.findViewById(R.id.textView50);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.GREEN);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable25.getView();
@@ -1625,7 +1625,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("전산정보원 S2");
                                             TextView distanceTextView = eView.findViewById(R.id.textView52);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.GREEN);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable26.getView();
@@ -1648,7 +1648,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("전자정보 3관 S4-1");
                                             TextView distanceTextView = eView.findViewById(R.id.textView54);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.GREEN);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable27.getView();
@@ -1671,7 +1671,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("나이팅게일관 S4-2");
                                             TextView distanceTextView = eView.findViewById(R.id.textView56);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.GREEN);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable28.getView();
@@ -1694,7 +1694,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("야외공연장 S8");
                                             TextView distanceTextView = eView.findViewById(R.id.textView58);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.GREEN);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable29.getView();
@@ -1717,7 +1717,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("박물관 S9");
                                             TextView distanceTextView = eView.findViewById(R.id.textView60);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.GREEN);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable30.getView();
@@ -1740,7 +1740,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("양성재 S17-1");
                                             TextView distanceTextView = eView.findViewById(R.id.textView62);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.GREEN);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable31.getView();
@@ -1763,7 +1763,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("제2학생회관 S14");
                                             TextView distanceTextView = eView.findViewById(R.id.textView64);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.GREEN);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable32.getView();
@@ -1786,7 +1786,7 @@ public class LocationActivity extends AppCompatActivity {
                                             textView.setText("농업생명환경대학 S21-4");
                                             TextView distanceTextView = eView.findViewById(R.id.textView66);
                                             distanceTextView.setText(node.getDistance() + "M");
-                                            eView.setBackgroundColor(Color.RED);
+                                            eView.setBackgroundColor(Color.GREEN);
                                         }
                                         else{
                                             View eView = exampleLayoutRenderable33.getView();
